@@ -1,0 +1,66 @@
+.header {
+  position: fixed;
+  margin: 20px;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  margin-left: 2vw;
+}
+
+.header-tetle {
+  font-size: 2vw;
+  color: rgb(6, 4, 138);
+  text-decoration: none;
+}
+
+.header-nav {
+  margin-left: auto;
+}
+
+.header-nav-list {
+  display: flex;
+  margin-right: 2vw;
+  list-style: none;
+}
+
+.header-nav-item {
+  margin-left: 2.5vw;
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(6, 4, 138);
+  font-size: 1vw;
+}
+
+.title {
+  position: relative;
+}
+
+.title-img {
+  position: absolute;
+  margin: 9% 0 auto;
+  width: 50%;
+  right: 0;
+}
+
+.title-text {
+  position: absolute;
+  margin: 31.5%;
+  margin-left: 0;
+  font-size: 4.5vw;
+  font-weight: lighter;
+}
+
+.title-back {
+  position: absolute;
+  background-color: rgb(2, 2, 128);
+  width: 75vw;
+  height: 13vw;
+  margin: 35.5%;
+  margin-left: 0;
+  z-index: -1;
+}
